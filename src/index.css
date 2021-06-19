@@ -1,0 +1,80 @@
+.main_div{
+  width: 100%;
+  height: 100vh;
+  background: plum;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center ;
+
+}
+
+.center_div{
+  width: 30%;
+  height: 80vh;
+  background-color: rgb(224, 207, 207);
+  box-shadow: 5px 5px 25px - 5px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+
+h1{
+  color: white;
+  background: transparent;
+  background-color: violet;
+  padding: 6px 0 2px 0;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0,0, 0, 0.3);
+}
+
+input{
+  text-align: start;
+  height: 30px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width: 60%;
+  border-bottom: 2px solid rgb(161, 68, 161);
+  outline: black;
+}
+ol{
+  margin-top: 20px;
+}
+
+ol li{
+  padding-left: 0px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+}
+.todo_style{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center ;
+}
+.todo_style .fa-times {
+    width: 20px;
+    height: 20px;
+     display: flex;
+  justify-content: center;
+  align-items: center;
+  margin :0 15px 0 35px;
+
+}
+.fa-times{
+  padding-top: 0px;
+}
+button{
+  margin-left: 5px;
+  min-height: 40px;
+  width: 60px;
+  color:rgb(161, 68, 161);
+  font-size: 20px;
+}
